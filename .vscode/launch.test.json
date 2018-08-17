@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "ignite_sample_201808",
+                "projectName": "ignite_sample_201808",
+                "workingDirectory": "c:\\home\\yojik\\workspace\\ignite_sample_201808",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "ignite_sample_201808",
+                "projectName": "ignite_sample_201808",
+                "workingDirectory": "c:\\home\\yojik\\workspace\\ignite_sample_201808",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

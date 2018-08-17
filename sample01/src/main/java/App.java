@@ -20,7 +20,7 @@ public class App {
         System.out.println(c);
         //c.put("test", "TEST");
         //Console console = System.console();//これはgradleから実行したときにnullを返すため
-        //console.readLine("enter!"); //利用できない
+        //console.readLine("enter!"); //利用できな�?
         String input = readLine("enter!");
         System.out.println(c.get("test"));
         ignite.close();
