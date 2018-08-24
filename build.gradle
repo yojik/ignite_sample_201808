@@ -27,7 +27,7 @@ subprojects {
     }
     //日本語設定
     tasks.withType(JavaCompile) {
-        options.encoding = 'UTF-8' 
+        options.encoding = 'UTF-8'
     }
     run {
         standardInput = System.in //これをやらないと標準入力がgradle run で利用できない
