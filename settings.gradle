@@ -11,3 +11,4 @@ rootProject.name = 'ignite-sample-2018'
 
 include 'sample01'
 include 'sample02'
+include 'server01'
