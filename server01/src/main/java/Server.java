@@ -17,10 +17,8 @@ public class Server {
         Ignite ignite =Ignition.start();
         Cache<String,String> c = ignite.getOrCreateCache("sample");
         String input = readLine("enter!");
-        System.out.println(c.get("test"));
         ignite.close();
     }
-
     private String readLine(String string) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println(string);
@@ -31,7 +29,6 @@ public class Server {
 
         }
     }
-
     public static void main(String[] args) {
         Server app = new Server();
         app.startIt();
