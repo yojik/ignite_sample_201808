@@ -16,13 +16,14 @@ public class App {
     public void startIt() {
         Ignition.setClientMode(true);
         Ignite ignite =Ignition.start();
-        Cache<String,String> c = ignite.getOrCreateCache("sample");
-        System.out.println(c);
+        Cache<String,String> cache = ignite.getOrCreateCache("sample"); 
+        cache.forEach(ent->{
+            System.out.println(ent.getKey()  + ">" + ent.getValue());
+        });
         String input = readLine("enter!");
-        System.out.println(c.get("test"));
-        ignite.close();
+        ignite.close(); 
     }
-
+   
     private String readLine(String string) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.println(string);

@@ -1,4 +1,4 @@
 //すべてのプロジェクトにrunをつけているので、起動用メインが必要
-mainClassName = 'App'
+mainClassName = 'App'  
 
 
